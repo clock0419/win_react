@@ -12,6 +12,7 @@ const ProductList = () => {
 
     return (
         <div>
+            <h2>商品リスト</h2>
             <ul className="products">
                 {data?.map(product=> (
                     <ProductItem {... product} key={product.id}/>
